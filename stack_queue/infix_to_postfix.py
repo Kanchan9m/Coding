@@ -1,9 +1,7 @@
 # Infix to postfix Conversion using stack
 class Solution:
     
-    #Function to convert an infix expression to a postfix expression.
     def InfixtoPostfix(self, s):
-        #code here
         preced = {'+':1, '-': 1,'*':2, '/':2, '^':3}
         stack = []
         ans = ''

@@ -2,7 +2,6 @@
 
 class Solution:
     def preToInfix(self, pre_exp):
-        # Code here
         p = pre_exp[::-1]
         stack = []
         

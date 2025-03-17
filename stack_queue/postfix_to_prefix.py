@@ -2,7 +2,6 @@
 
 class Solution:
     def postToPre(self, post_exp):
-        # Code here
         stack = []
         
         for i in post_exp:
